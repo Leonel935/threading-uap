@@ -113,6 +113,7 @@ namespace ClaseHilos
                 {
                     productos[i].PrecioUnitarioDolares *= 1.1;                    
                 }
+                
                 Console.WriteLine("Se actualizo por inflación");
                 Console.WriteLine("----------------------------------------");
                 barrera.SignalAndWait();
